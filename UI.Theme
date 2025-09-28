@@ -1,95 +1,82 @@
-WindUI:AddTheme({
-	Name = "Emerald",
-	Accent = "#10b981",
-	Dialog = "#065f46",
-	Outline = "#34d399",
-	Text = "#d1fae5",
-	Placeholder = "#6ee7b7",
-	Background = "#064e3b",
-	Button = "#059669",
-	Icon = "#2dd4bf",
-})
-
-WindUI:AddTheme({
-	Name = "Sakura",
-	Accent = "#f472b6",
-	Dialog = "#fce7f3",
-	Outline = "#fbb6ce",
-	Text = "#831843", 
-	Placeholder = "#f9a8d4",
-	Background = "#fff1f5",
-	Button = "#ec4899",
-	Icon = "#f472b6",
-})
-
-WindUI:AddTheme({
-	Name = "Blood Red",
-	Accent = "#b91c1c",
-	Dialog = "#7f1d1d",
-	Outline = "#f87171",
-	Text = "#fee2e2",
-	Placeholder = "#fca5a5",
-	Background = "#1f0404",
-	Button = "#dc2626",
-	Icon = "#ef4444",
-})
-
-WindUI:AddTheme({
-	Name = "Diamond",
-	Accent = "#22d3ee",
-	Dialog = "#0e7490",
-	Outline = "#38bdf8",
-	Text = "#e0f7fa",
-	Placeholder = "#7dd3fc",
-	Background = "#031f3c",
-	Button = "#06b6d4",
-	Icon = "#22d3ee",
-})
-
-WindUI:AddTheme({
-	Name = "Purple Wok",
-	Accent = "#9f7aea",
-	Dialog = "#5b21b6",
-	Outline = "#c4b5fd",
-	Text = "#ede9fe",
-	Placeholder = "#d8b4fe",
-	Background = "#1a0536",
-	Button = "#7c3aed",
-	Icon = "#a78bfa",
-})
-
-WindUI:AddTheme({
-	Name = "Sunset Glow",
-	Accent = "#ff6f00",
-	Dialog = "#e65c00",
-	Outline = "#ff944d",
-	Text = "#ffe6cc",
-	Placeholder = "#ffcc99",
-	Background = "#662e00",
-	Button = "#ff7f00",
-	Icon = "#ff6f00",
-})
-
-WindUI:AddTheme({
-	Name = "Cyber Hacker",
-	Accent = "#00ff66",
-	Dialog = "#00120a",
-	Outline = "#66ffb3",
-	Text = "#d6ffe6",
-	Placeholder = "#66ff99",
-	Background = "#06140d",
-	Button = "#00e65a",
-	Icon = "#00ff66",
-})
-
-WindUI:AddTheme({
-	Name = "Amethyst",
-	Accent = "#d36eff",
-	Dialog = "#9b2c9b",
-	Outline = "#e599f7",
-	Text = "#f3d1ff",
-	Placeholder = "#f0b3ff",
-	Background = "#2a0d2f",
-	Button = "#c23cff",
-	Icon = "#d36eff",
-})
+return {
+    Emerald = {
+        Accent = "#10b981",
+        Dialog = "#065f46",
+        Outline = "#34d399",
+        Text = "#d1fae5",
+        Placeholder = "#6ee7b7",
+        Background = "#064e3b",
+        Button = "#059669",
+        Icon = "#2dd4bf",
+    },
+    Sakura = {
+        Accent = "#f472b6",
+        Dialog = "#fce7f3",
+        Outline = "#fbb6ce",
+        Text = "#831843",
+        Placeholder = "#f9a8d4",
+        Background = "#fff1f5",
+        Button = "#ec4899",
+        Icon = "#f472b6",
+    },
+    ["Blood Red"] = {
+        Accent = "#b91c1c",
+        Dialog = "#7f1d1d",
+        Outline = "#f87171",
+        Text = "#fee2e2",
+        Placeholder = "#fca5a5",
+        Background = "#1f0404",
+        Button = "#dc2626",
+        Icon = "#ef4444",
+    },
+    Diamond = {
+        Accent = "#22d3ee",
+        Dialog = "#0e7490",
+        Outline = "#38bdf8",
+        Text = "#e0f7fa",
+        Placeholder = "#7dd3fc",
+        Background = "#031f3c",
+        Button = "#06b6d4",
+        Icon = "#22d3ee",
+    },
+    ["Purple Wok"] = {
+        Accent = "#9f7aea",
+        Dialog = "#5b21b6",
+        Outline = "#c4b5fd",
+        Text = "#ede9fe",
+        Placeholder = "#d8b4fe",
+        Background = "#1a0536",
+        Button = "#7c3aed",
+        Icon = "#a78bfa",
+    },
+    ["Sunset Glow"] = {
+        Accent = "#ff6f00",
+        Dialog = "#e65c00",
+        Outline = "#ff944d",
+        Text = "#ffe6cc",
+        Placeholder = "#ffcc99",
+        Background = "#662e00",
+        Button = "#ff7f00",
+        Icon = "#ff6f00",
+    },
+    ["Cyber Hacker"] = {
+        Accent = "#00ff66",
+        Dialog = "#00120a",
+        Outline = "#66ffb3",
+        Text = "#d6ffe6",
+        Placeholder = "#66ff99",
+        Background = "#06140d",
+        Button = "#00e65a",
+        Icon = "#00ff66",
+    },
+    Amethyst = {
+        Accent = "#d36eff",
+        Dialog = "#9b2c9b",
+        Outline = "#e599f7",
+        Text = "#f3d1ff",
+        Placeholder = "#f0b3ff",
+        Background = "#2a0d2f",
+        Button = "#c23cff",
+        Icon = "#d36eff",
+    }
+}
