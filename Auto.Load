@@ -1,4 +1,4 @@
--- Vor deinem eigentlichen Script:
+
 local Library = loadstring(game:local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()"))()
 local AutoTab = Library:Tab("Auto Map")
 
