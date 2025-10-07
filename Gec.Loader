@@ -1,14 +1,14 @@
-local placeScriptURLs = {
-    [126509999114328] = "https://raw.githubusercontent.com/GEC0/gec/refs/heads/main/99.Nights",
-    [79546208627805]  = "https://raw.githubusercontent.com/GEC0/gec/refs/heads/main/99.Nights",
-    [137925884276740] = "https://raw.githubusercontent.com/GEC0/gec/refs/heads/main/Build.a.Plane",
+local ScriptURL = {
+	[126509999114328] = "https://raw.githubusercontent.com/GEC0/gec/refs/heads/main/99.Nights",
+	[79546208627805]  = "https://raw.githubusercontent.com/GEC0/gec/refs/heads/main/99.Nights",
+	[137925884276740] = "https://raw.githubusercontent.com/GEC0/gec/refs/heads/main/Build.a.Plane",
 }
 
-local url = placeScriptURLs[game.PlaceId]
+local url = ScriptURL[game.PlaceId]
 if url then
-    local remoteCode = game:HttpGet(url, true)
-    local func = loadstring(remoteCode)
-    if func then
-        func()
-    end
+	local remoteCode = game:HttpGet(url, true)
+	local func = loadstring(remoteCode)
+	if func then
+		func()
+	end
 end
