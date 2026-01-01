@@ -1,1 +1,14 @@
+local ScriptURL = {
+	[126509999114328] = "https://raw.githubusercontent.com/GEC0/gec/main/Gec.Loader",
+	[79546208627805]  = "https://raw.githubusercontent.com/GEC0/gec/main/Gec.Loader",
+	[118614517739521] = "https://raw.githubusercontent.com/GEC0/gec/main/Gec.Blind.Shot",
+}
 
+local url = ScriptURL[game.PlaceId]
+if url then
+	local remoteCode = game:HttpGet(url, true)
+	local func = loadstring(remoteCode)
+	if func then
+		func()
+	end
+end
