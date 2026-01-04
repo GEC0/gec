@@ -11,5 +11,9 @@ if url then
 	local func = loadstring(remoteCode)
 	if func then
 		func()
+	else
+		print("Failed to load code")
 	end
+else
+	print("Game not Supported")
 end
