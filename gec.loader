@@ -1,7 +1,7 @@
 local ScriptURL = {
-	[126509999114328] = "https://raw.githubusercontent.com/GEC0/gec/main/Gec.Loader",
-	[79546208627805]  = "https://raw.githubusercontent.com/GEC0/gec/main/Gec.Loader",
-	[118614517739521] = "https://raw.githubusercontent.com/GEC0/gec/main/Gec.Blind.Shot",
+	[126509999114328] = "https://api.luarmor.net/files/v3/loaders/280fe6188a70f10ee532e0a0a9a3e004.lua",
+	[79546208627805]  = "https://api.luarmor.net/files/v3/loaders/280fe6188a70f10ee532e0a0a9a3e004.lua",
+	[118614517739521] = "https://api.luarmor.net/files/v3/loaders/0c83bd886c9a5babd38474db7493dcbb.lua",
 }
 
 local url = ScriptURL[game.PlaceId]
