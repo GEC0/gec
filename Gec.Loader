@@ -1,5 +1,5 @@
 local ScriptURL = {
-	[126509999114328] = "hhttps://api.luarmor.net/files/v3/loaders/89ca32fd1127d60b18954480264b49e8.lua",
+	[126509999114328] = "https://api.luarmor.net/files/v3/loaders/89ca32fd1127d60b18954480264b49e8.lua",
 	[79546208627805]  = "https://api.luarmor.net/files/v3/loaders/89ca32fd1127d60b18954480264b49e8.lua",
 	[118614517739521] = "https://api.luarmor.net/files/v3/loaders/64d0a3096ab8c83969d39c93316abfed.lua",
     [286090429] = "https://api.luarmor.net/files/v3/loaders/4db40aab631c890d3fd1cd1bc2cdd9d1.lua",
