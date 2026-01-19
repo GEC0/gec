@@ -5,6 +5,7 @@ local ScriptURL = {
     [286090429] = "https://api.luarmor.net/files/v3/loaders/4db40aab631c890d3fd1cd1bc2cdd9d1.lua",
     [137925884276740] = "https://api.luarmor.net/files/v3/loaders/79a58d9507cf4a8e852d123629553f31.lua",
     [131623223084840] = "https://api.luarmor.net/files/v4/loaders/ce01d6b77cdb0b923ca211c54165c9e6.lua",
+    [124311897657957] = "https://api.luarmor.net/files/v4/loaders/0bd186fca868dc37953059f395311b40.lua",
 }
 
 local url = ScriptURL[game.PlaceId]
